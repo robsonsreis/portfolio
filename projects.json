@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Disparo automático de propostas comerciais",
+    "category": "Vendas",
+    "problem": "Equipe gastava 2h/dia montando e enviando propostas manualmente por e-mail",
+    "result": "Proposta gerada e enviada em menos de 30 segundos após preenchimento de formulário",
+    "metrics": [
+      { "label": "Tempo economizado", "value": "2h/dia" },
+      { "label": "Taxa de resposta", "value": "+34%" },
+      { "label": "Erro humano", "value": "0%" }
+    ],
+    "tags": ["Gmail", "Google Sheets", "PDF", "Webhook"],
+    "videoId": "dQw4w9WgXcQ",
+    "videoPlataforma": "youtube",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Monitoramento e alerta de menções no Instagram",
+    "category": "Marketing",
+    "problem": "Respostas a comentários e menções demoravam horas, prejudicando o engajamento",
+    "result": "Notificação no Slack em tempo real com contexto da menção e sugestão de resposta via IA",
+    "metrics": [
+      { "label": "Tempo de resposta", "value": "-87%" },
+      { "label": "Menções respondidas", "value": "100%" },
+      { "label": "Engajamento", "value": "+22%" }
+    ],
+    "tags": ["Instagram API", "Slack", "OpenAI", "n8n"],
+    "videoId": "dQw4w9WgXcQ",
+    "videoPlataforma": "youtube",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Sincronização de pedidos entre loja e ERP",
+    "category": "Operações",
+    "problem": "Pedidos da loja virtual precisavam ser lançados manualmente no sistema ERP, gerando atrasos e duplicidades",
+    "result": "Sincronização automática bidirecional com validação de estoque e notificação ao cliente",
+    "metrics": [
+      { "label": "Pedidos/dia automatizados", "value": "340+" },
+      { "label": "Erros de lançamento", "value": "0" },
+      { "label": "Custo operacional", "value": "-60%" }
+    ],
+    "tags": ["Shopify", "SAP", "Webhook", "Postgres"],
+    "videoId": "dQw4w9WgXcQ",
+    "videoPlataforma": "youtube",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Relatório semanal de métricas para gestores",
+    "category": "Gestão",
+    "problem": "Analistas levavam 3h toda segunda para compilar dados de diferentes plataformas em um relatório",
+    "result": "Relatório consolidado gerado e enviado automaticamente às 7h de segunda-feira",
+    "metrics": [
+      { "label": "Horas economizadas", "value": "3h/semana" },
+      { "label": "Fontes integradas", "value": "6" },
+      { "label": "Tempo de entrega", "value": "< 2 min" }
+    ],
+    "tags": ["Google Analytics", "Meta Ads", "Sheets", "Slack"],
+    "videoId": "dQw4w9WgXcQ",
+    "videoPlataforma": "youtube",
+    "featured": false
+  }
+]

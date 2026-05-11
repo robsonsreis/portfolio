@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Automações n8n — Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">autoflow<span class="logo-dot">.</span></span>
+        </div>
+        <nav class="nav-filters" id="navFilters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-eyebrow">Portfólio de Automações</div>
+        <h1 class="hero-title">Processos que <em>trabalham</em><br>enquanto você descansa</h1>
+        <p class="hero-subtitle">Cada projeto abaixo resolve um problema real de negócio usando automações no n8n. Veja o resultado em vídeo antes de entrar nos detalhes técnicos.</p>
+        <div class="hero-stats" id="heroStats"></div>
+      </div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+    </section>
+
+    <section class="projects-section">
+      <div class="container">
+        <div class="projects-grid" id="projectsGrid">
+          <div class="loading-state">
+            <div class="loading-spinner"></div>
+            <p>Carregando projetos...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Feito com n8n &amp; ☕ — <a href="https://n8n.io" target="_blank" rel="noopener">n8n.io</a></p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
