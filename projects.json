@@ -11,7 +11,7 @@
       { "label": "Erro humano", "value": "0%" }
     ],
     "tags": ["Gmail", "Google Sheets", "PDF", "Webhook"],
-    "videoId": "dQw4w9WgXcQ",
+    "videoId": "axZW2f12crU",
     "videoPlataforma": "youtube",
     "featured": true
   },
@@ -27,7 +27,7 @@
       { "label": "Engajamento", "value": "+22%" }
     ],
     "tags": ["Instagram API", "Slack", "OpenAI", "n8n"],
-    "videoId": "dQw4w9WgXcQ",
+    "videoId": "axZW2f12crU",
     "videoPlataforma": "youtube",
     "featured": false
   },
@@ -43,7 +43,7 @@
       { "label": "Custo operacional", "value": "-60%" }
     ],
     "tags": ["Shopify", "SAP", "Webhook", "Postgres"],
-    "videoId": "dQw4w9WgXcQ",
+    "videoId": "axZW2f12crU",
     "videoPlataforma": "youtube",
     "featured": true
   },
@@ -59,7 +59,7 @@
       { "label": "Tempo de entrega", "value": "< 2 min" }
     ],
     "tags": ["Google Analytics", "Meta Ads", "Sheets", "Slack"],
-    "videoId": "dQw4w9WgXcQ",
+    "videoId": "axZW2f12crU",
     "videoPlataforma": "youtube",
     "featured": false
   }
